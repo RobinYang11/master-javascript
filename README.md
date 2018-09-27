@@ -1,1 +1,4 @@
-# 原生JavaScript编写通用web插件
+# pure JavaScript pagenation plugin
+ - usage:
+    new page(cssSelector,callback);
+  
