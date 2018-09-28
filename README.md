@@ -1,6 +1,6 @@
 
-<h2 align="center"> page.js v.1.0.0  </h2>
-原生javascript 分页插件
+##  page.js v.1.0.0 
+    原生javascript 分页插件
 ## 如何使用？
 * 首先引入page.css 和 page.js
 * 在body中创建dom结构
