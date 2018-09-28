@@ -1,0 +1,71 @@
+a {
+    text-decoration: none;
+    border: 1px solid lightslategray;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-family: arial;
+    border: 1px solid dodgerblue;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+li {
+    list-style: none;
+}
+
+.pagenation {
+    height: 40px;
+    line-height: 40px;
+}
+
+.pagenation>ul>li {
+    float: left;
+    display: inline-block;
+    border: 1px solid lightslategray;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-family: arial;
+    border: 1px solid dodgerblue;
+}
+
+.go {
+    height: 40px;
+    line-height: 37px;
+}
+
+.go>input {
+    height: 27px;
+    width: 40px;
+    padding: 0;
+    border-radius: 2px;
+    border-style: none;
+    border: 1px solid dodgerblue;
+}
+
+.go>button {
+    height: 30px;
+    border: none;
+    padding: 0 20px;
+    background-color: dodgerblue;
+    border-radius: 3px;
+    color: white;
+    outline: none;
+}
+
+.go>button:active {
+    background: gainsboro
+}
+
+.active {
+    background: dodgerblue;
+    color: white;
+}
+
+.fl {
+    float: left;
+}

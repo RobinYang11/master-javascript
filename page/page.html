@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="utf-8" />
+        <title>原生js实现分页</title>
+        <link rel="stylesheet" href="./page.css">
+	</head>
+
+	<body>
+		<div class="pagenation clearfix">
+			<div class="wp fl"></div>
+			<div class="go fl">
+				<input type="text" />
+				<button>go</button>
+			</div>
+		</div>
+        <script src="./page.js"></script>
+        <script>
+            
+            var page = new page({
+				root: '.pagenation',
+				callback: function(a,b){console.log(a,b)},
+				currentPage: 1,
+				pageSize: 10,
+				total: 223,
+				showPage:10
+			})
+        </script>
+	</body>
+
+</html>
