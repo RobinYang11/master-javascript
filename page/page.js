@@ -167,11 +167,3 @@ function callback(a, b) {
 
 }
 
-var page = new page({
-	root: '.pagenation',
-	callback: callback,
-	currentPage: 1,
-	pageSize: 10,
-	total: 223,
-	showPage:10
-})
