@@ -1,7 +1,7 @@
 
 <h2 align="center"> page.js v.1.0.0  </h2>
-<p>原生javascript 分页插件</p>
-### 如何使用？
+原生javascript 分页插件
+## 如何使用？
 * 首先引入page.css 和 page.js
 * 在body中创建dom结构
 * 创建page实例
@@ -31,7 +31,7 @@
 </script>
 ```
 
-- API说明
+## API说明
 <table>
     <tr>
         <td>属性</td>
